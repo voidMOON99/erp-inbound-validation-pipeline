@@ -1,0 +1,246 @@
+{
+  "name": "ERP Inbound Validation Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT *\nFROM validation_result\nORDER BY inbound_date, error_type, inbound_id;",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        208,
+        0
+      ],
+      "id": "51b5dac9-9a01-4ddb-8d87-12c15607d88f",
+      "name": "Query Validation Result",
+      "credentials": {
+        "postgres": {
+          "id": "kZ3Lv5Ab4AhE3h7P",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT\n    error_type,\n    COUNT(*) AS error_count,\n    COUNT(DISTINCT inbound_id) AS affected_inbound_count\nFROM validation_result\nGROUP BY error_type\nORDER BY error_count DESC, error_type;",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        832,
+        0
+      ],
+      "id": "21d9b51f-f81b-4613-b02a-c3f577fa700a",
+      "name": "Query Validation Summary",
+      "credentials": {
+        "postgres": {
+          "id": "kZ3Lv5Ab4AhE3h7P",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 9
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        0,
+        0
+      ],
+      "id": "2d595312-5945-4564-9800-bbaaf7121199",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "options": {
+          "fileName": "validation_result.csv"
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        416,
+        0
+      ],
+      "id": "9380236f-3d87-4074-bfc5-f359b09c063f",
+      "name": "Convert Detail to CSV"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "=/files/reports/validation_result_{{ $now.toFormat('yyyyMMdd') }}.csv",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        624,
+        0
+      ],
+      "id": "f4217713-2b4b-412e-98f2-fa1e3527e00d",
+      "name": "Write Detail Report"
+    },
+    {
+      "parameters": {
+        "options": {
+          "fileName": "validation_summary.csv"
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1040,
+        0
+      ],
+      "id": "bb833f46-b51f-457c-ba12-9174fccba297",
+      "name": "Convert Summary to CSV"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "=/files/reports/validation_summary_{{ $now.toFormat('yyyyMMdd') }}.csv",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        1248,
+        0
+      ],
+      "id": "5eac9f4a-235d-4eb0-8d6f-c26d32538a95",
+      "name": "Write Summary Report"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO workflow_run_log (\n    workflow_name,\n    detail_report_path,\n    summary_report_path,\n    total_error_count,\n    status\n)\nSELECT\n    'ERP Inbound Validation Pipeline',\n    '/files/reports/validation_result_{{ $now.toFormat('yyyyMMdd') }}.csv',\n    '/files/reports/validation_summary_{{ $now.toFormat('yyyyMMdd') }}.csv',\n    COUNT(*),\n    'SUCCESS'\nFROM validation_result;",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        1456,
+        0
+      ],
+      "id": "e0e5c465-dbde-4664-af80-62e0afc4bf09",
+      "name": "Insert Workflow Run Log",
+      "credentials": {
+        "postgres": {
+          "id": "kZ3Lv5Ab4AhE3h7P",
+          "name": "Postgres account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Query Validation Result": {
+      "main": [
+        [
+          {
+            "node": "Convert Detail to CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Query Validation Summary": {
+      "main": [
+        [
+          {
+            "node": "Convert Summary to CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        []
+      ]
+    },
+    "Convert Detail to CSV": {
+      "main": [
+        [
+          {
+            "node": "Write Detail Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Write Detail Report": {
+      "main": [
+        [
+          {
+            "node": "Query Validation Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert Summary to CSV": {
+      "main": [
+        [
+          {
+            "node": "Write Summary Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Write Summary Report": {
+      "main": [
+        [
+          {
+            "node": "Insert Workflow Run Log",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Insert Workflow Run Log": {
+      "main": [
+        [
+          {
+            "node": "Query Validation Result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "fee5c552-f1fd-43f0-a557-38be101d5b49",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "c663fecacce7887c81f2050a2d6b127fda226969c4d73b6696db5037cbb6ac5a"
+  },
+  "nodeGroups": [],
+  "id": "YBI64dtqiUOJMRrJ",
+  "tags": []
+}

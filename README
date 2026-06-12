@@ -1,0 +1,23 @@
+# ERP Inbound Validation Pipeline
+
+n8n과 PostgreSQL을 활용해 ERP 입고 데이터의 정합성을 자동 검증하고, 상세 오류 리포트와 요약 리포트를 날짜별 CSV 파일로 생성하는 업무 자동화 파이프라인입니다.
+
+## 주요 기능
+
+- 매일 오전 9시 Schedule Trigger 실행
+- PostgreSQL 입고 데이터 검증 쿼리 실행
+- 발주수량 초과, 미등록 품목, 미등록 협력사, 중복 입고, 수량 음수 등 검증
+- 상세 오류 리포트 CSV 자동 생성
+- 오류 유형별 요약 리포트 CSV 자동 생성
+- 워크플로우 실행 로그 PostgreSQL 저장
+
+## Workflow
+
+Schedule Trigger  
+→ Query Validation Result  
+→ Convert Detail to CSV  
+→ Write Detail Report  
+→ Query Validation Summary  
+→ Convert Summary to CSV  
+→ Write Summary Report  
+→ Insert Workflow Run Log
