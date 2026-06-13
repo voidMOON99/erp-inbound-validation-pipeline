@@ -1,0 +1,192 @@
+﻿inbound_id,inbound_date,po_no,item_code,vendor_code,inbound_qty,reference_qty,error_type,error_message
+INB-00022,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1110,ITM-031,V022,235,178,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00105,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1184,ITM-071,V010,137,84,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00175,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1084,ITM-053,V022,188,147,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00200,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1158,ITM-014,V014,241,205,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00299,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1280,ITM-019,V008,270,223,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00410,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1291,ITM-050,V015,278,209,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00442,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1303,ITM-077,V001,175,161,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00446,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1078,ITM-071,V005,263,240,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00061,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-489,ITM-X144,V014,48,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00083,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-849,ITM-029,V001,4,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00222,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-952,ITM-050,V015,46,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00269,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-967,ITM-020,V009,125,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00344,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1151,ITM-X981,V004,13,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00426,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1028,ITM-X370,V022,168,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00061,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-489,ITM-X144,V014,48,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00344,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1151,ITM-X981,V004,13,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00426,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1028,ITM-X370,V022,168,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00030,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1332,ITM-065,V942,53,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00311,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1102,ITM-017,V913,140,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00321,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1059,ITM-034,V943,6,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00333,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1180,ITM-068,V923,138,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00419,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1107,ITM-057,V902,118,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00069,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1111,ITM-026,V005,-15,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00207,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1326,ITM-012,V014,-13,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00288,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1109,ITM-066,V022,-15,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00452,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1191,ITM-032,V004,-4,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00047,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1272,ITM-033,V022,43,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00054,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1061,ITM-039,V015,87,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00067,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1114,ITM-064,V013,67,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00372,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1272,ITM-033,V022,43,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00490,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1061,ITM-039,V015,87,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00492,Fri Jun 12 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1114,ITM-064,V013,67,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00076,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1026,ITM-068,V020,314,236,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00079,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1336,ITM-080,V020,251,33,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00107,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1128,ITM-009,V014,282,228,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00155,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1259,ITM-031,V016,104,93,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00178,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1317,ITM-036,V020,303,300,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00181,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1212,ITM-035,V972,194,40,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00194,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1328,ITM-072,V018,208,188,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00301,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1141,ITM-028,V015,233,187,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00324,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1255,ITM-038,V012,232,211,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00331,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1235,ITM-065,V009,57,21,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00335,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1056,ITM-031,V013,96,81,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00365,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1243,ITM-005,V903,350,277,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00383,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1246,ITM-053,V021,175,99,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00397,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1024,ITM-069,V005,127,85,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00011,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-572,ITM-022,V014,143,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00161,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1054,ITM-X742,V017,137,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00165,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1316,ITM-X986,V005,13,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00168,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-938,ITM-009,V014,102,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00225,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1216,ITM-X841,V011,183,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00254,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-460,ITM-072,V012,56,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00263,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1262,ITM-X309,V022,138,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00272,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1124,ITM-X110,V003,118,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00273,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1119,ITM-X972,V018,183,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00329,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-440,ITM-022,V009,342,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00481,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1337,ITM-X086,V001,36,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00161,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1054,ITM-X742,V017,137,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00165,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1316,ITM-X986,V005,13,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00225,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1216,ITM-X841,V011,183,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00263,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1262,ITM-X309,V022,138,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00272,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1124,ITM-X110,V003,118,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00273,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1119,ITM-X972,V018,183,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00481,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1337,ITM-X086,V001,36,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00015,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1234,ITM-009,V990,177,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00122,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1053,ITM-062,V904,58,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00181,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1212,ITM-035,V972,194,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00203,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1033,ITM-008,V912,7,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00352,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1129,ITM-070,V981,125,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00365,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1243,ITM-005,V903,350,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00387,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1345,ITM-011,V926,209,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00416,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1304,ITM-017,V962,145,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00440,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1324,ITM-033,V909,62,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00450,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1011,ITM-009,V978,106,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00024,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1142,ITM-049,V009,-18,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00027,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1142,ITM-049,V009,-2,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00056,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1266,ITM-062,V004,-20,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00188,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1070,ITM-037,V020,-18,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00434,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1208,ITM-035,V017,-3,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00074,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1207,ITM-060,V023,57,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00092,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1066,ITM-070,V023,132,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00176,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1151,ITM-040,V004,31,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00235,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1066,ITM-070,V023,132,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00284,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1151,ITM-040,V004,31,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00396,Sat Jun 13 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1207,ITM-060,V023,57,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00021,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1028,ITM-052,V022,248,211,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00026,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1102,ITM-017,V007,249,235,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00077,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1162,ITM-076,V009,256,185,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00082,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1343,ITM-040,V011,136,63,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00243,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1222,ITM-053,V002,148,116,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00279,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1064,ITM-017,V012,81,55,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00405,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1111,ITM-026,V005,91,32,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00425,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1100,ITM-065,V010,265,229,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00497,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1018,ITM-065,V020,137,121,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00018,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-125,ITM-060,V021,74,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00177,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1275,ITM-X047,V010,106,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00223,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-985,ITM-062,V004,5,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00237,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-650,ITM-057,V002,4,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00256,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1276,ITM-X096,V007,71,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00309,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-475,ITM-041,V014,201,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00314,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1064,ITM-X352,V958,20,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00346,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-489,ITM-X144,V014,48,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00369,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1026,ITM-X800,V020,44,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00380,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1105,ITM-X883,V010,90,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00389,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1083,ITM-X552,V001,77,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00444,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1332,ITM-X392,V007,18,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00177,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1275,ITM-X047,V010,106,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00256,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1276,ITM-X096,V007,71,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00314,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1064,ITM-X352,V958,20,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00346,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-489,ITM-X144,V014,48,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00369,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1026,ITM-X800,V020,44,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00380,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1105,ITM-X883,V010,90,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00389,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1083,ITM-X552,V001,77,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00444,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1332,ITM-X392,V007,18,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00142,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1178,ITM-069,V985,83,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00282,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1331,ITM-040,V994,38,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00312,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1269,ITM-002,V910,36,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00314,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1064,ITM-X352,V958,20,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00338,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1238,ITM-043,V978,199,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00415,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1268,ITM-003,V970,137,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00136,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1273,ITM-013,V021,-17,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00206,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1310,ITM-047,V017,-13,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00221,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1166,ITM-063,V007,-19,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00345,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1012,ITM-060,V017,-8,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00373,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1284,ITM-049,V021,-18,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00392,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1201,ITM-010,V022,-4,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00023,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1151,ITM-040,V004,31,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00052,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1151,ITM-040,V004,31,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00073,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1061,ITM-039,V015,14,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00341,Sun Jun 14 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1061,ITM-039,V015,14,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00041,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1078,ITM-071,V005,263,240,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00053,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1090,ITM-045,V021,304,280,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00065,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1226,ITM-063,V004,77,34,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00071,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1165,ITM-004,V016,251,186,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00089,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1015,ITM-038,V014,166,100,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00151,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1104,ITM-073,V010,299,227,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00167,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1226,ITM-063,V004,77,34,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00171,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1214,ITM-024,V019,289,243,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00196,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1181,ITM-025,V010,144,136,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00208,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1146,ITM-032,V007,62,30,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00212,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1029,ITM-067,V015,130,81,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00216,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1251,ITM-009,V008,210,167,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00246,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1102,ITM-017,V007,255,235,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00255,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1191,ITM-032,V911,237,233,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00271,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1047,ITM-028,V013,129,50,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00277,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1344,ITM-020,V006,122,45,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00297,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1230,ITM-020,V016,221,169,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00326,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1216,ITM-053,V011,236,184,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00328,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1224,ITM-057,V002,128,124,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00430,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1334,ITM-072,V012,95,78,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00451,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1312,ITM-067,V010,282,254,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00478,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1331,ITM-040,V012,110,73,발주수량 초과,입고 수량이 발주 수량보다 많습니다.
+INB-00010,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1151,ITM-X981,V004,13,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00180,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1238,ITM-X157,V018,152,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00197,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1044,ITM-X017,V015,63,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00226,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-307,ITM-049,V020,40,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00286,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1311,ITM-X117,V008,24,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00304,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1119,ITM-X989,V018,85,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00319,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1157,ITM-X069,V001,82,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00361,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1272,ITM-X518,V022,72,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00370,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-761,ITM-039,V015,145,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00376,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-224,ITM-009,V009,140,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00437,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1219,ITM-X009,V015,2,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00467,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-073,ITM-X609,V016,164,,발주정보 없음,해당 발주번호와 품목 조합이 발주 데이터에 없습니다.
+INB-00010,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1151,ITM-X981,V004,13,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00180,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1238,ITM-X157,V018,152,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00197,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1044,ITM-X017,V015,63,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00286,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1311,ITM-X117,V008,24,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00304,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1119,ITM-X989,V018,85,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00319,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1157,ITM-X069,V001,82,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00361,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1272,ITM-X518,V022,72,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00437,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1219,ITM-X009,V015,2,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00467,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-MISS-073,ITM-X609,V016,164,,미등록 품목,품목 마스터에 존재하지 않는 품목 코드입니다.
+INB-00081,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1226,ITM-063,V990,34,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00093,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1212,ITM-035,V972,30,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00130,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1249,ITM-069,V969,60,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00255,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1191,ITM-032,V911,237,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00258,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1008,ITM-029,V937,7,,미등록 협력사,협력사 마스터에 존재하지 않는 협력사 코드입니다.
+INB-00005,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1269,ITM-002,V019,-6,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00147,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1269,ITM-002,V019,-18,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00241,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1175,ITM-071,V011,-6,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00275,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1291,ITM-050,V015,-11,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00292,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1013,ITM-002,V022,-10,,수량 음수,입고 수량이 0보다 작습니다.
+INB-00006,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1268,ITM-003,V022,137,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00016,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1124,ITM-057,V003,82,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00050,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1226,ITM-063,V004,18,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00057,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1268,ITM-003,V022,137,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00065,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1226,ITM-063,V004,77,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00090,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1226,ITM-063,V004,18,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00110,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1124,ITM-057,V003,82,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."
+INB-00167,Mon Jun 15 2026 00:00:00 GMT+0900 (Korean Standard Time),PO-1226,ITM-063,V004,77,2,중복 입고 의심,"동일 입고일, 발주번호, 품목, 협력사, 수량이 모두 같은 입고 데이터가 여러 번 등록되었습니다."

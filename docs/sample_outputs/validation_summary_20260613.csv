@@ -1,0 +1,7 @@
+﻿error_type,error_count,affected_inbound_count,total_inbound_count,total_error_event_count,total_affected_inbound_count
+발주수량 초과,50,50,500,191,158
+미등록 품목,27,27,500,191,158
+미등록 협력사,25,25,500,191,158
+중복 입고 의심,22,22,500,191,158
+수량 음수,20,20,500,191,158
+발주정보 없음,14,14,500,191,158

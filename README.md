@@ -143,6 +143,7 @@ validation_result_YYYYMMDD.csv
 validation_summary_YYYYMMDD.csv
 ai_summary_YYYYMMDD.txt
 ```
+실행 결과 예시는 `docs/sample_outputs/` 폴더에서 확인할 수 있습니다.
 
 ---
 
