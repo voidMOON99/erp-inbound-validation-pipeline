@@ -1,5 +1,6 @@
 # ERP Inbound Validation Pipeline
-
+> n8n + PostgreSQL 기반 ERP 입고 데이터 정합성 검증 및 AI 리포트 자동화
+> 
 ## 1. 프로젝트 한 줄 소개
 
 n8n, PostgreSQL, Docker Compose, Gemini API를 활용하여 **ERP 입고 데이터의 정합성 오류를 자동 검증하고, CSV 리포트와 AI 요약 리포트를 생성하는 업무 자동화 파이프라인**입니다.
