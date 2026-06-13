@@ -1,0 +1,23 @@
+# n8n / local env
+.env
+.env.local
+.env.*.local
+.n8n/
+
+# database files
+*.db
+*.sqlite
+*.sqlite3
+
+# generated reports
+reports/*.csv
+reports/*.xlsx
+reports/*.txt
+
+# logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
